@@ -25,10 +25,11 @@ ETA: 5 October 2025
 ### Data Analysis of Explosives' Properties
 Team GTaEE (Graph Theory and Electrodynamics Enthusiasts)'s physics problem submission for IMPACT 4.0 2024 final hosted by ITB (Bandung Technology Institute). Problem concerns measuring physical properties of explosives and involves processing data, performing calculation, and visualizing results of it.
 
-To do:
-- Retreive the code currently held by teammate
+Posted with permission of teammate.
 
-ETA: -
+File: Explosive Analysis.ipynb
 
 ## Physics
 Various program of physic problems involving simulations, the numerical method, and visualizations.
+
+Files: Contents of the Physics folder.
