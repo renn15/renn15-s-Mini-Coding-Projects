@@ -1,15 +1,11 @@
 # renn15-s-Mini-Coding-Projects
-Serves as a programming portfolio for an upcoming interview. Will be updated along time until before the interview.
+Programming portfolio for an upcoming interview.
 
 ## Web Development
 ### Image Filtering Website
-Final project for an online fundamental web development course by Duke University in Coursera. Website allows user to upload any image and apply numerous filters, either individually or stacked on top of each other. Code currently in codepen: https://codepen.io/renn15/pen/MYKYpGR
+Final project for an online fundamental web development course by Duke University in Coursera. Website allows user to upload any image and apply numerous filters, either individually or stacked on top of each other. Code also available in codepen: https://codepen.io/renn15/pen/MYKYpGR
 
-To do: 
-- Add 2 final features
-- Convert to proper code
-
-ETA: 6 October 2025
+Files: / Website Development / Ultimate Filter App
 
 ## Machine Learning and Data Analytics
 ### Cardiotocography (CTG) Analysis
