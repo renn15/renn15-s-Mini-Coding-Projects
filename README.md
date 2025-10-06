@@ -13,9 +13,9 @@ ETA: 6 October 2025
 
 ## Machine Learning and Data Analytics
 ### Cardiotocography (CTG) Analysis
-Team TM110's submission for Datathon 2025: Lifeline hosted by EEE@MLDA. Model accepts summary data of a CTG reading (comprises of fetal heart rate and uterine contractions) and determines its condition (normal, suspect, or pathological). Repository of this project can be found at: https://github.com/renn15/TM110-Datathon-2025
+Team TM110's submission for Datathon 2025: Lifeline hosted by EEE@MLDA. Model accepts summary data of a CTG reading (comprises of fetal heart rate and uterine contractions) and determines its condition (normal, suspect, or pathological). Final model employs Histogram-based Gradient Boost (HGB).
 
-ETA: 5 October 2025
+Files: https://github.com/renn15/TM110-Datathon-2025
 
 ### Data Analysis of Explosives' Properties
 Team GTaEE (Graph Theory and Electrodynamics Enthusiasts)'s physics problem submission for IMPACT 4.0 2024 final hosted by ITB (Bandung Technology Institute). Problem concerns measuring physical properties of explosives and involves processing data, performing calculation, and visualizing results of it.
