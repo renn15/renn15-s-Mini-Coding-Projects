@@ -1,0 +1,44 @@
+<!--Also view on Codepen: https://codepen.io/renn15/pen/MYKYpGR?editors=0100-->
+<!--Ideas:
+    * Limit the scaling of the image (also prevents the floating credit from clashing with the image)
+    * Add a loading bar
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ultimate Filter App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Filter Anything You Want</h1>
+        <div id="main">
+            <p>
+                <input type="file" accept="image/*" onchange="loadInputImage(this)"/>
+                <input  type="button" value="Reset Filter" onclick="resetCanvas()"/>
+            </p>
+                <canvas id='canvas'></canvas>
+            <p>
+                <input type="button" value="Grayscalify" onclick="applyFilter('grayscale')"/>
+                <input type="button" value="Redify" onclick="applyFilter('red')"/>
+                <input type="button" value="Blurify" onclick="applyFilter('blur')"/>
+                <input type="button" value="Rainbowify" onclick="applyFilter('rainbow')"/>
+                <input type="button" value="Scatterify" onclick="applyFilter('scatter')"/>
+            </p>
+            <p>
+                <input type="checkbox" id="stack" name="stack" />
+                <label for="stack">Stack Filters</label>
+            </p>
+        </div>
+        <p>
+            Press the filter buttons to apply it to the original image.<br/>
+            Turn on stack filters to apply filters to the already-filtered image on the screen.<br/>
+            <b>For a fun exercise, rainbowify an image then repeatedly apply scatterify with stack filters on. (might lag)</b>
+        </p>
+        <footer>
+            <p>Steven Darren <a href="https://github.com/renn15">"renn15"</a> Wijaya</p>
+        </footer>
+        <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
