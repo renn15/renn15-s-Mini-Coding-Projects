@@ -1,0 +1,25 @@
+body {
+  background-color: lightgray;
+  font-family: Courier;
+  text-align: center;
+}
+
+#main {
+  margin: 50px;
+}
+
+input[type='button'], input[type='file'], input[type="file"]::file-selector-button {
+  font-family: Courier;
+} /* huh */
+
+canvas {
+  border: 1px solid black;
+}
+
+footer {
+  font-size: 12px;
+  border-top: solid black 1px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
