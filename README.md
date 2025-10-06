@@ -15,11 +15,6 @@ ETA: 6 October 2025
 ### Cardiotocography (CTG) Analysis
 Team TM110's submission for Datathon 2025: Lifeline hosted by EEE@MLDA. Model accepts summary data of a CTG reading (comprises of fetal heart rate and uterine contractions) and determines its condition (normal, suspect, or pathological). Repository of this project can be found at: https://github.com/renn15/TM110-Datathon-2025
 
-To do:
-- Finish the code
-- Record a demo and write a report
-- Submit to the event
-
 ETA: 5 October 2025
 
 ### Data Analysis of Explosives' Properties
